@@ -13,9 +13,13 @@ app.use(express.static("public"));
 // connect to the mongodb database
 /* connectDB() */
 app.use(connectDB)
-
+app.get("/", (req, res) => {
+    res.send("Express on Vercel");
+});
 
 app.use('/api/items', require("./routes/items"))
 app.use('/api/payment', cors(), require("./routes/payment"))
 
 app.listen(PORT, () => console.log(`Server is Alive on port: ${PORT}`))
+
+module.exports = app;
