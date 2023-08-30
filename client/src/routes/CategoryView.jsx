@@ -12,7 +12,7 @@ const CategoryView = () => {
     const [ loading , setLoading ] = useState(true) 
 
     useEffect(() => {
-        axios.get("https://artisan-otomi.vercel.app/api/items")
+        axios.get("https://shema-backend.vercel.app/api/items")
             .then(res => {
                 setMenItems(res.data.filter((item) => item.category === "men"))
                 setKidsItems(res.data.filter((item) => item.category === "kids" ))

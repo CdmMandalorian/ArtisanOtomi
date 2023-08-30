@@ -1,7 +1,7 @@
 {
-  "name": "artisanOtomi",
+  "name": "artisan-otomi",
   "version": "1.0.0",
-  "description": "Artisan Otomi MERN Stack Ecommerce application",
+  "description": "Artisan Otomi MERN Stack Ecommerce application.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,3 +17,4 @@
   },
   "homepage": "https://github.com/CdmMandalorian/ArtisanOtomi#readme"
 }
+
