@@ -11,10 +11,12 @@ app.use(express.urlencoded({extended: false}))
 app.use(express.static("public"));
 
 // connect to the mongodb database
-/* connectDB() */
-app.use(connectDB)
-app.get("/", (req, res) => {
-    res.send("Express on Vercel");
+connectDB()
+
+app.get("/api", (req, res) => {
+    res.json({
+        message: "Hello World"
+    })
 });
 
 app.use('/api/items', require("./routes/items"))
