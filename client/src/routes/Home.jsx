@@ -11,7 +11,7 @@ const Home = () => {
     TabTitle("Home - Artisan Otomi");
 
     useEffect(() => {
-        axios.get("https://shema-backend.vercel.app/api/items")
+        axios.get("https://artisan-otomi.vercel.app/api/items")
             .then(res => setFeaturedItems(res.data))
             .catch(err => console.log(err))
 
