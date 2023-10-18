@@ -1,38 +1,78 @@
-.App {
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@500&family=Ubuntu:wght@500&display=swap');
+
+* {
+    font-family: 'Flamenco', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+}
+
+
+a:hover {
+    text-decoration: none;
+    
+}
+
+div.featured__products__container {
+    background-color: #05265d;
+}
+div.featured__categories__container {
+    background-color: #05265d;
+}
+div.product__card__detail {
+    background-color: #e4007c;
+}
+#root {
+    background-color: #e4007c;
+}
+h1.div.landing__header__container {
+    color: #f5b51b;
+}
+#root > div.d-flex.min-vh-100.w-100.justify-content-center.align-items-center.m-auto {
+    background-color: #05265d;
+}
+#root > div.d-flex.min-vh-100.w-100.justify-content-center.align-items-center.m-auto.min-vh-100 {
+    min-height: 99vh!important;
+}
+#root > div.featured__products__container > div > div.d-flex.min-vh-100.w-100.justify-content-center.align-items-center.m-auto {
+    min-height: 76vh!important;
+}
+#root > div.featured__products__container > div > div.featured__products__header > a:hover{
+    color: #f5b51b;
+}
+#root > div.header__container > nav > div > ul a:hover{
+    color: #f5b51b;
+}
+div.shop__category__header {
+    color: #f5b51b;
+}
+div.category__header {
+    color: #f5b51b;
+}
+/* --------- */
+/*Scrollbar   */
+/* --------- */
+
+::-webkit-scrollbar {
+    width: 7px;
   }
   
-  .App-logo {
-    height: 40vmin;
-    pointer-events: none;
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #227081;
   }
   
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2f99b1;
+    border-radius: 12px;
   }
   
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
-  .App-link {
-    color: #61dafb;
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3eb2cc;
+    border-radius: 12px;
   }
