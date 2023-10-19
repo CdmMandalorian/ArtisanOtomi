@@ -181,3 +181,20 @@ div.category__header {
     width: 220px;
    }
 }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+/* (1920x1080) Full HD Display */
+@media  screen and (max-width: 1920px) {
+    /* insert styles here */
+}
+ 
+/* (2560x1440) WQHD Display */
+@media  screen and (max-width: 2560px) {
+    /* insert styles here */
+}
