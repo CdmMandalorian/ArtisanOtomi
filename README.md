@@ -1,6 +1,11 @@
-# MERN Ecommerce Application
+# ARTISAN OTOMI
+<div align="center">
+  <img alt="Demo" src="client\src\asset\Images\ArtisanOtomiEcommerceMernHome.png" />
+</div>
 
-<code>Currently under construction for additional features</code>
+## MERN Ecommerce Application
+
+<code>Demo Use Only</code>
 
 # Description
 
@@ -19,7 +24,7 @@ Full-stack ecommerce application built with MERN stack. This project has two fea
 - Expressjs - Framework to handle routes and requests
 - Mongoose - MongoDB object modeling tool to model the database schema
 
-## Installation
+## 🛠 Installation
 
 After you cloned the repository do not start the application. To run the application fully you need to create a database and collection and provide your own database URI.
 
@@ -53,3 +58,33 @@ After this you can run the project locally:
 - [Expressjs](https://expressjs.com)
 - [Mongoose](https://mongoosejs.com)
 - [Material UI](https://mui.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [React Bootstrap](https://react-bootstrap.netlify.app/) 
+<br />
+
+## Screenshots 
+
+<img src="client\src\asset\Images\ArtisanOtomiEcommerceMernShop.png">
+
+<img src="client\src\asset\Images\ArtisanOtomiEcommerceMernShoppt2.png">
+
+<img src="client\src\asset\Images\ArtisanOtomiEcommerceMernHomept2.png">
+
+
+<br />
+
+## Live:
+  Visit Artisan Otomi [here](https://artisan-otomi.vercel.app/ "Link to Artisan Otomi").
+<br />
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<br />
+
+### Show your support
+
+Give a ⭐ if you like this website!
+
+
+# Portfotlio
+My personal portfolio which features some of my Github Projects as well as my Resume and Technical Skills. [💼](https://cdmmandalorian.github.io/AEGcodesPortfolio/ "Link AEGcodes Portfolio").
