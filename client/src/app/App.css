@@ -123,7 +123,75 @@ div.category__header {
         width: 215px !important;
     }
     div.footer__social__link__container {
-        width: 600px;
+        width: 360px;
+        height: 60px;
+        display: grid;
+        margin-bottom: 10px;
+        margin-top: -10px;
+    }
+    ul.footer__social__links {
+        margin-left: -17px !important;
+    }
+    li.social__link {
+        margin-left: 21%;
+    }
+    .fotter__help__links {
+        margin: 5%;
+        padding: 2%;
+    }
+    form.search__form {
+        width: 205px;
+       }
+} 
+
+/* /* IPhone X/* */
+@media only screen and (min-width: 375px) {
+    div.MuiDrawer-root.MuiDrawer-modal.MuiModal-root.css-1u2w381-MuiModal-root-MuiDrawer-root > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation16.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
+        background-color: #e4007c;
+    }
+    ul.nav {
+        font-size: .7rem;
+    }
+    div.footer__items__container {
+        font-size: .6rem;
+    }
+    h1.navbrand {
+        font-size: 1.0rem;
+        margin-left: 70px;
+    }
+    h1.landing__header__main{
+        font-size: .6rem;
+    }
+    h3.landing__header__discount{
+        font-size: .9rem;
+    }
+    img.landing__image {
+        height: 240px;
+        margin-top: -25px;
+    }
+    .landing__image__container {
+        display: contents !important;
+    }
+    .landing__header__container {
+        display: contents !important;
+    }
+    .landing__header {
+        margin-top: -25px;
+    }
+    .featured__header__big {
+        font-size: 1.8rem;
+    }
+    h3.featured__items__header__big {
+        font-size: 1.5rem;
+    }
+    .footer__help__container {
+        width: 110px !important;
+    }
+    div.footer__contact__container {
+        width: 215px !important;
+    }
+    div.footer__social__link__container {
+        width: 360px;
         height: 60px;
         display: grid;
         margin-bottom: 10px;
@@ -144,25 +212,142 @@ div.category__header {
     }
 } 
 
-/* IPhone X
-@media only screen and (min-width: 375px) {
-
-
-}
-
 /* GalaxyS21 Ultra */
-/* @media only screen and (min-width: 412px) {
-
-
-} */
+@media only screen and (min-width: 412px) {
+    div.MuiDrawer-root.MuiDrawer-modal.MuiModal-root.css-1u2w381-MuiModal-root-MuiDrawer-root > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation16.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
+        background-color: #e4007c;
+    }
+    ul.nav {
+        font-size: .8rem;
+    }
+    div.footer__items__container {
+        font-size: .6rem;
+    }
+    h1.navbrand {
+        font-size: 1.1rem;
+        margin-left: 70px;
+    }
+    h1.landing__header__main{
+        font-size: .7rem;
+    }
+    h3.landing__header__discount{
+        font-size: 1rem;
+    }
+    img.landing__image {
+        height: 260px;
+        margin-top: -25px;
+    }
+    .landing__image__container {
+        display: contents !important;
+    }
+    .landing__header__container {
+        display: contents !important;
+    }
+    .landing__header {
+        margin-top: -25px;
+    }
+    .featured__header__big {
+        font-size: 1.8rem;
+    }
+    h3.featured__items__header__big {
+        font-size: 1.5rem;
+    }
+    .footer__help__container {
+        width: 110px !important;
+    }
+    div.footer__contact__container {
+        width: 215px !important;
+    }
+    div.footer__social__link__container {
+        width: 360px;
+        height: 60px;
+        display: grid;
+        margin-bottom: 10px;
+        margin-top: -10px;
+    }
+    ul.footer__social__links {
+        margin-left: -2px !important;
+    }
+    li.social__link {
+        margin-left: 21%;
+    }
+    .fotter__help__links {
+        margin: 5%;
+        padding: 2%;
+    }
+    form.search__form {
+        width: 205px;
+    }
+} 
 /* Iphone 14 Pro Max */
-/* @media only screen and (min-width: 430px) {
-
-
-} */
-
+@media only screen and (min-width: 430px) {
+    div.MuiDrawer-root.MuiDrawer-modal.MuiModal-root.css-1u2w381-MuiModal-root-MuiDrawer-root>div.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation16.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+        background-color: #e4007c;
+    }
+    ul.nav {
+        font-size: .8rem;
+    }
+    div.footer__items__container {
+        font-size: .6rem;
+    }
+    h1.navbrand {
+        font-size: 1.1rem;
+        margin-left: 70px;
+    }
+    h1.landing__header__main {
+        font-size: .7rem;
+    }
+    h3.landing__header__discount {
+        font-size: 1rem;
+    }
+    img.landing__image {
+        height: 26px;
+        margin-top: -25px;
+    }
+    .landing__image__container {
+        display: contents !important;
+    }
+    .landing__header__container {
+        display: contents !important;
+    }
+    .landing__header {
+        margin-top: -25px;
+    }
+    .featured__header__big {
+        font-size: 1.8rem;
+    }
+    h3.featured__items__header__big {
+        font-size: 1.5rem;
+    }
+    .footer__help__container {
+        width: 110px !important;
+    }
+    div.footer__contact__container {
+        width: 215px !important;
+    }
+    div.footer__social__link__container {
+        width: 360px;
+        height: 60px;
+        display: grid;
+        margin-bottom: 10px;
+        margin-top: -10px;
+    }
+    ul.footer__social__links {
+        margin-left: -2px !important;
+    }
+    li.social__link {
+        margin-left: 21%;
+    }
+    .fotter__help__links {
+        margin: 5%;
+        padding: 2%;
+    }
+    form.search__form {
+        width: 205px;
+    }
+}
 /* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     h1.navbrand {
         font-size: 1.1rem;
         margin-left: 70px;
@@ -208,9 +393,9 @@ div.category__header {
    li.social__link {
     margin-left: 13%;
    }
-} */
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
     h1.navbrand {
         font-size: 1.1rem;
         margin-left: 70px;
@@ -256,7 +441,7 @@ div.category__header {
    li.social__link {
     margin-left: 13%;
    }
-} */
+}
 /* Medium devices (landscape tablets, 768px and up) */
 /* @media only screen and (min-width: 768px) {
     div.footer__social__link__container {
