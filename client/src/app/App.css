@@ -76,6 +76,36 @@ div.category__header {
     background: #3eb2cc;
     border-radius: 12px;
 }
+
+@media only screen and (min-width: 360px) {
+    div.MuiDrawer-root.MuiDrawer-modal.MuiModal-root.css-1u2w381-MuiModal-root-MuiDrawer-root > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation16.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
+        background-color: #e4007c;
+    }
+    ul.nav {
+        font-size: .7rem;
+    }
+
+    div.footer__items__container {
+        font-size: .7rem;
+    }
+} 
+
+/* IPhone X */
+@media only screen and (min-width: 375px) {
+
+
+}
+/* GalaxyS21 Ultra */
+@media only screen and (min-width: 412px) {
+
+
+}
+/* Iphone 14 Pro Max */
+@media only screen and (min-width: 430px) {
+
+
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     h1.navbrand {
