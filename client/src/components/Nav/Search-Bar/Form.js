@@ -21,7 +21,7 @@ const Form = () => {
     }
 
     return ( 
-            <form className="search__form" onSubmit={handelFormSubmit}>
+            <form className="search__form" onSubmit={handelFormSubmit} >
                 <input type="text"  placeholder='Search for products' className="search__form__input" value={searchInput} onChange={handelChange} required/>
                 <button className="search__form__button" type='submit'>
                     <SearchIcon fontSize='medium'/>
